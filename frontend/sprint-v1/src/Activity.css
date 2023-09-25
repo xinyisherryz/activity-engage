@@ -1,0 +1,59 @@
+.activity-container {
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activity-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .activity-container .row {
+    margin-bottom: 0.5rem;
+  }
+  
+  .activity-container strong {
+    font-weight: 500;
+  }
+  
+  .activity-container td,
+  .activity-container th {
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ddd;
+  }
+  
+  .activity-container th {
+    background-color: #f2f2f2;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .activity-container tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .activity-container a {
+    color: #007bff;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .activity-container a:hover {
+    text-decoration: underline;
+  }
+
+  .activity-container > div:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .activity-container > div:hover {
+    background-color: #e1e1e1;
+  }
+  
+  
+  

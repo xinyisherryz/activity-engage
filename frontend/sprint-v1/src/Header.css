@@ -1,0 +1,43 @@
+
+
+.custom-navbar {
+    background-color: white;
+    border-bottom: 1px solid #cccccc;
+  }
+  
+  .custom-navbar .navbar-brand {
+    color: black !important;
+     margin-right: 40px;
+  }
+  
+  .custom-navbar .nav-link {
+    color: black !important;
+    position: relative;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    font-family: 'Rakkas', sans-serif;
+    font-size: larger;
+  }
+  
+  .custom-navbar .nav-link:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .custom-navbar .nav-link:hover:before {
+    width: 8px;
+    height: 2px;
+    top: calc(50% - 1px);
+    left: 0;
+  }
+
+.IconWord {
+    font-family: 'Rakkas', sans-serif;
+}
+  
